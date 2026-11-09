@@ -1,37 +1,31 @@
-﻿# UET MAT1052 — Xác suất Thống kê Quiz App
+﻿# UET.IS2099 — Nhập môn Cơ sở dữ liệu Quiz App
 
-Hệ thống trắc nghiệm ôn tập **265 câu hỏi** cho môn Xác suất Thống kê (MAT1052) tại Trường Đại học Công nghệ, ĐHQGHN (UET-VNU).
+Hệ thống ôn tập **40 câu hỏi vận dụng** môn Nhập môn Cơ sở dữ liệu tại Trường Đại học Công nghệ, ĐHQGHN (UET-VNU), kèm **cheatsheet lý thuyết** đầy đủ.
 
-## Tính năng
+## Nội dung
 
-- 265 câu hỏi trắc nghiệm bao phủ 7 tuần học
-- Hỗ trợ cả câu hỏi 1 đáp án và nhiều đáp án
-- Lọc theo **tuần** và **độ khó** (Dễ / Trung bình / Khó)
-- Tìm kiếm theo nội dung câu hỏi
-- Hiển thị **LaTeX** công thức toán học qua MathJax 3
-- Bảng tiến độ và màu sắc trực quan
-- Lời giải chi tiết sau khi kiểm tra đáp án
-- Chế độ xem từng câu và danh sách
-
-## Cấu trúc bài tập
-
-| Tuần | Chủ đề | Số câu |
-|------|--------|--------|
-| 01 | Các câu hỏi & Dữ liệu | 35 |
-| 02 | Tóm tắt dữ liệu | 45 |
-| 03 | Ngữ pháp đồ họa & plotnine | 45 |
-| 04 | Tương quan & Hồi quy OLS | 35 |
-| 05 | Xác suất & Định lý Bayes | 35 |
-| 06 | Biến ngẫu nhiên rời rạc & PMF/CDF | 35 |
-| 07 | Kỳ vọng, CLT & Phân phối liên tục | 35 |
+- **40 câu hỏi tình huống**, mỗi câu 4 lựa chọn, có lời giải chi tiết
+- **Chương 2 – Mô hình ER cơ bản:** 12 câu (thuộc tính, khóa, lực lượng, min–max, thực thể yếu, liên kết đệ quy)
+- **Chương 3.1 – Mô hình quan hệ:** 10 câu (khóa ứng viên, khóa chính/ngoại, toàn vẹn thực thể – tham chiếu – miền)
+- **Chương 3.2 – Đại số quan hệ:** 18 câu (chọn, chiếu, hợp, giao, trừ, tích Descartes, nối, chia, gom nhóm, nối ngoài)
+- **Cheatsheet 9 phần:** tổng quan CSDL, ER, EER, mô hình quan hệ, chuyển ER → quan hệ, đại số quan hệ, quy trình giải bài, dạng bài tập và checklist trước thi
+- Công thức Đại số quan hệ hiển thị bằng **LaTeX** qua MathJax 3
+- Lọc theo **chương**, **độ khó**, tìm kiếm nội dung
+- Chế độ xem **từng câu** và **danh sách**, bảng tiến độ trực quan
+- Nút **In / Lưu PDF** cho cheatsheet
 
 ## Cách sử dụng
 
 Mở file `index.html` (hoặc `quiz_app.html`) trong trình duyệt web.
 
-Không cần server — chạy trực tiếp offline.
+Không cần server — chạy trực tiếp offline (riêng công thức LaTeX cần Internet để tải MathJax).
 
 ## Yêu cầu
 
 - Trình duyệt hiện đại (Chrome, Firefox, Edge, Safari)
-- Kết nối Internet để tải MathJax (render công thức toán)
+- Kết nối Internet để tải MathJax và Tailwind CSS
+
+## Nguồn nội dung
+
+- `cau_hoi_van_dung_40_cau_chuong_2_3_CSDL.docx` — 40 câu hỏi vận dụng
+- `cheatsheet_nhap_mon_CSDL.pdf` — cheatsheet ôn tập
